@@ -70,18 +70,15 @@ html, body{width: 100%; margin: 0 auto;}
     right: 20px; top: 16px;
 }
 #invitation > .call h2:first-child{line-height: 50px;}
-#invitation > .call > .phone{
-    position: relative;
-}
 #invitation > .call > .phone > a img{
     /* outline: 2px solid red; */
     position: relative;
-    bottom: 78px; left: 94.5px;
+    bottom: 78px; left: 65%;
+    display: block;
+    margin-bottom: 12px;
 }
 #invitation > .call > .phone > a:last-child img{
-    /* outline: 2px solid red; */
-    position: relative;
-    bottom: 30px; left: 50px;
+    margin-bottom: 0;    
 }
 #gallery{text-align: center;}
 #gallery h1 {
