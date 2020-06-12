@@ -76,12 +76,12 @@ html, body{width: 100%; margin: 0 auto;}
 #invitation > .call > .phone > a img{
     /* outline: 2px solid red; */
     position: relative;
-    bottom: 78px; left: 100px;
+    bottom: 78px; left: 94.5px;
 }
 #invitation > .call > .phone > a:last-child img{
     /* outline: 2px solid red; */
     position: relative;
-    bottom: 30px; left: 55px;
+    bottom: 30px; left: 50px;
 }
 #gallery{text-align: center;}
 #gallery h1 {
