@@ -1,0 +1,129 @@
+/* style.css */
+*{padding: 0; margin: 0; box-sizing: border-box;}
+ul{list-style-type: none;}
+a{text-decoration: none;}
+html, body{width: 100%; margin: 0 auto;}
+
+/* header */
+#main_header {
+    position: relative;
+    width: 100%; height: 80px;
+    background: #d9c1bd;
+    margin: 0 auto;
+}
+#main_header > h1 {
+    text-align: center;
+    padding-top: 30px;
+    padding-right: 280px;
+    color: #fff;
+    font-family: "바른 고딕", sans-serif;
+}
+#visual{
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    /* outline: 2px solid red; */
+    margin-bottom: 50px;
+}
+#visual img{width: 100%; height: 100%;}
+
+#marry{
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    /* outline: 2px solid red; */
+    margin-bottom: 30px;
+}
+#marry h3 {font-size: 16px; font-weight: bold;}
+#marry p {font-size: 13px; margin-bottom: 20px;}
+#marry img {margin-bottom: 20px;}
+#marry p:last-child {font-size: 13px; margin-bottom: 20px;}
+#marry span{font-size: 13px; margin-bottom: 20px;}
+
+#invitation{
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#invitation h1{
+    font-size: 24px; font-weight: bold;
+    font-family: "나눔명조", sans-serif; 
+    height: 80px; background: #d9c1bd; 
+    line-height: 80px;
+}
+#invitation p{
+    font-size: 13px; line-height: 22px;
+    margin-top: 30px; margin-bottom: 30px;
+}
+#invitation p:last-child{color: #666;}
+#invitation p span{color: #000;}
+#invitation > .call {
+    position: relative;
+    height: 125px; 
+    /* outline: 2px solid red; */
+    background: #ffa798;
+}
+#invitation > .call h2{
+    position: relative;
+    font-size: 13px;; 
+    right: 20px; top: 16px;
+}
+#invitation > .call h2:first-child{line-height: 50px;}
+#invitation > .call > .phone{
+    position: relative;
+}
+#invitation > .call > .phone > a img{
+    /* outline: 2px solid red; */
+    position: relative;
+    bottom: 78px; left: 100px;
+}
+#invitation > .call > .phone > a:last-child img{
+    /* outline: 2px solid red; */
+    position: relative;
+    bottom: 30px; left: 55px;
+}
+#gallery{text-align: center;}
+#gallery h1 {
+    font-size: 24px; font-weight: bold;
+    font-family: "나눔명조", sans-serif; 
+    height: 80px; background: #d9c1bd; 
+    line-height: 80px;
+    margin-bottom: 30px;
+}
+#gallery > .pic-list{
+    /* outline: 2px solid red; */
+    margin-bottom: 100px;
+}
+#gallery > .pic-list li{
+    position: relative;
+    width: 118.4px; height: 78px;
+    overflow: hidden;
+    padding-left: 10px; padding-right: 10px;
+    margin-bottom: 10px;
+    /* float: left; */
+    display: inline-block;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+}
+#gallery > .pic-list li:nth-child(1n){padding-left: 0;}
+#gallery > .pic-list li:nth-child(3n){padding-right: 0;}
+#gallery > .pic-list li:nth-child(7){margin-bottom: 0;}
+#gallery > .pic-list li:nth-child(8){margin-bottom: 0;}
+#gallery > .pic-list li:last-child{margin-bottom: 0;}
+#gallery > .pic-list li:hover {background: #000; opacity: 0.4;}
+
+#location{text-align: center;}
+#location h1 {
+    font-size: 24px; font-weight: bold;
+    font-family: "나눔명조", sans-serif; 
+    height: 80px; background: #d9c1bd; 
+    line-height: 80px;
+}
+#location h2{
+    font-size: 13px; 
+    margin-top: 30px; margin-bottom: 30px;
+    line-height: 24px;
+}
+#location iframe{margin-bottom: 30px;}
+.info p {background: #d9c1bd; height: 240px;}
+.info span {color: salmon; font-weight: bold; line-height: 40px;}
